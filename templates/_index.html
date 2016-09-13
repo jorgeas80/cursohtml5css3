@@ -20,7 +20,7 @@
 
 
         <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="bower_components/highlightjs/styles/moon.css">
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
 
         <!-- Printing and PDF exports -->
         <script>
@@ -83,6 +83,11 @@
               { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
             ]
           });
+
+          // Slide every five seconds
+        Reveal.configure({
+          autoSlide: 5000
+        });
 
         </script>
     </body>
