@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+all	Gruntfile.coffee	/^            all: ['js\/*.js']$/;"	f
+base	Gruntfile.coffee	/^                    base: '.'$/;"	f
+buildcontrol	Gruntfile.coffee	/^        buildcontrol:$/;"	f
+coffeelint	Gruntfile.coffee	/^            coffeelint:$/;"	f
+coffeelint	Gruntfile.coffee	/^        coffeelint:$/;"	f
+coffeelint	package.json	/^    "coffeelint": "^1.0.0"$/;"	f
+commit	Gruntfile.coffee	/^                commit: true$/;"	f
+connect	Gruntfile.coffee	/^        connect:$/;"	f
+copy	Gruntfile.coffee	/^        copy:$/;"	f
+dependencies	bower.json	/^  "dependencies": {$/;"	f
+deployToGithubPages	.yo-rc.json	/^    "deployToGithubPages": true,$/;"	f
+dest	Gruntfile.coffee	/^                    dest: 'dist\/'$/;"	f
+devDependencies	package.json	/^  "devDependencies": {$/;"	f
+dir	Gruntfile.coffee	/^                dir: 'dist'$/;"	f
+dist	Gruntfile.coffee	/^            dist:$/;"	f
+engines	package.json	/^  "engines": {$/;"	f
+expand	Gruntfile.coffee	/^                    expand: true$/;"	f
+exports	Gruntfile.coffee	/^module.exports = (grunt) ->$/;"	f
+files	Gruntfile.coffee	/^                files: [$/;"	f
+files	Gruntfile.coffee	/^                files: ['js\/*.js']$/;"	f
+files	Gruntfile.coffee	/^                files: [{$/;"	f
+filter	Gruntfile.coffee	/^                    filter: 'isFile'$/;"	f
+generator-reveal	.yo-rc.json	/^  "generator-reveal": {$/;"	f
+githubRepository	.yo-rc.json	/^    "githubRepository": "cursohtml5css3"$/;"	f
+githubUsername	.yo-rc.json	/^    "githubUsername": "jorgeas80",$/;"	f
+grunt	package.json	/^    "grunt": "^0.4.5",$/;"	f
+grunt-build-control	package.json	/^    "grunt-build-control": "^0.5.0",$/;"	f
+grunt-coffeelint	package.json	/^    "grunt-coffeelint": "0.0.13",$/;"	f
+grunt-contrib-connect	package.json	/^    "grunt-contrib-connect": "^0.10.1",$/;"	f
+grunt-contrib-copy	package.json	/^    "grunt-contrib-copy": "^0.8.0",$/;"	f
+grunt-contrib-jshint	package.json	/^    "grunt-contrib-jshint": "^0.11.2",$/;"	f
+grunt-contrib-watch	package.json	/^    "grunt-contrib-watch": "^0.6.1",$/;"	f
+highlightjs	bower.json	/^    "highlightjs": "~9.0.0"$/;"	f
+hostname	Gruntfile.coffee	/^                    hostname: 'localhost'$/;"	f
+indentation	Gruntfile.coffee	/^                indentation:$/;"	f
+index	Gruntfile.coffee	/^            index:$/;"	f
+jshint	Gruntfile.coffee	/^            jshint:$/;"	f
+jshint	Gruntfile.coffee	/^        jshint:$/;"	f
+livereload	Gruntfile.coffee	/^                    livereload: true$/;"	f
+livereload	Gruntfile.coffee	/^            livereload:$/;"	f
+load-grunt-tasks	package.json	/^    "load-grunt-tasks": "^3.2.0", $/;"	f
+max_line_length	Gruntfile.coffee	/^                max_line_length:$/;"	f
+name	bower.json	/^  "name": "html5-css3",$/;"	f
+name	package.json	/^  "name": "html5-css3",$/;"	f
+node	package.json	/^    "node": ">=0.10.0",$/;"	f
+npm	package.json	/^    "npm": ">=1.3.7"$/;"	f
+open	Gruntfile.coffee	/^                    open: true$/;"	f
+options	Gruntfile.coffee	/^                options:$/;"	f
+options	Gruntfile.coffee	/^            options:$/;"	f
+packageVersion	.yo-rc.json	/^    "packageVersion": "1.0.0",$/;"	f
+pages	Gruntfile.coffee	/^            pages:$/;"	f
+port	Gruntfile.coffee	/^                    port: 9000$/;"	f
+presentationTitle	.yo-rc.json	/^    "presentationTitle": "HTML5, CSS3",$/;"	f
+private	package.json	/^  "private": true,$/;"	f
+push	Gruntfile.coffee	/^                push: true$/;"	f
+querySlidingHtml	js/loadhtmlslides.js	/^    var querySlidingHtml = function () {$/;"	f
+repository	package.json	/^  "repository": {$/;"	f
+reveal.js	bower.json	/^    "reveal.js": "~3.2.0",$/;"	f
+revealTheme	.yo-rc.json	/^    "revealTheme": "solarized",$/;"	f
+scripts	package.json	/^  "scripts": {$/;"	f
+section	Gruntfile.coffee	/^                section: (slide) ->$/;"	m
+slide	Gruntfile.coffee	/^                        slide:$/;"	f
+slides	Gruntfile.coffee	/^                slides:$/;"	f
+src	Gruntfile.coffee	/^                    src: [$/;"	f
+test	package.json	/^    "test": "grunt test"$/;"	f
+type	package.json	/^    "type": "git",$/;"	f
+url	package.json	/^    "url": "git@github.com:jorgeas80\/cursohtml5css3.git"$/;"	f
+useSass	.yo-rc.json	/^    "useSass": false,$/;"	f
+value	Gruntfile.coffee	/^                    value: 4$/;"	f
+version	bower.json	/^  "version": "1.0.0",$/;"	f
+version	package.json	/^  "version": "1.0.0",$/;"	f
+watch	Gruntfile.coffee	/^        watch:$/;"	f
