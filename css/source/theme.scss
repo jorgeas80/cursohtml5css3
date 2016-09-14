@@ -54,6 +54,16 @@ section.has-light-background {
 //
 
 // My own code
+
+$codeFontSize: 18px;
+
+.show-code-column div {
+    float: none;
+    vertical-align:middle;
+    font-size: $codeFontSize;
+    text-align: left;
+}
+
 .html5-color {
     color:#E34E25;
 }

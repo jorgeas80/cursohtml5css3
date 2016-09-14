@@ -2,6 +2,7 @@
     "index.html",
     "temario_html5.html",
     "temario_css3.html",
+    "temario_html5_avanzado.html",
     [
         "intro-html5-1.html",
         "intro-html5-2.html",
@@ -31,5 +32,11 @@
         "semantica-html5-5.html",
         "semantica-html5-6.html",
         "semantica-html5-7.html"
+    ],
+    [
+            "formularios-html5-1.html",
+            "formularios-html5-2.html",
+            "formularios-html5-3.html",
+            "formularios-html5-4.html"
     ]
 ]
