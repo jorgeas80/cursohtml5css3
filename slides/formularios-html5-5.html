@@ -1,19 +1,20 @@
 <h2>Formularios <span class="html5-color">HTML5</span></h2>
 
 <p>
-    Ejemplo I
+    Ejemplo II
 </p>
 
 <div class="row">
     <div class="col-md-3 show-code-column">
         <form>
             <div class="form-group">
-                <label for="email1">Email</label>
-                <input type="email" class="form-control" id="email1">
+                <label for="range1">Range</label>
+                <output id="outrange" for="range1">1</output>
+                <input type="range" class="form-control" id="range1" min="1" max="10" value="1" oninput="outrange.value = range1.value">
             </div>
             <div class="form-group">
-                <label for="pass1">Password</label>
-                <input type="password" class="form-control" id="pass1">
+                <label for="date1">Date</label>
+                <input type="date" class="form-control" id="date1">
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-default">Submit</button>
@@ -23,14 +24,15 @@
         </form>
     </div>
     <div class="col-md-9 show-code-column">
-        <pre><code class="hljs" data-trim data-noscape style="font-size: 14px">&lt;form&gt;
-    &lt;div class=&quot;form-group&quot;&gt;
-      &lt;label for=&quot;email1&quot;&gt;Email&lt;/label&gt;
-        &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email1&quot;&gt;
+        <pre><code class="hljs" data-trim data-noscape style="font-size: 14px; max-height: 465px">&lt;form&gt;
+    &lt;div class=&quot;form-group&quot;>
+      &lt;label for=&quot;email1"&gt;Range&lt;/label&gt;
+        &lt;output id="outrange" for="range1"&gt;1&lt;/output>
+        &lt;input type=&quot;range&quot; class=&quot;form-control&quot; id=&quot;range1&quot; min="1" max="10" value="1" oninput="outrange.value = range1.value">
     &lt;/div&gt;
     &lt;div class=&quot;form-group&quot;&gt;
-      &lt;label for=&quot;exampleInputPassword1&quot;&gt;Password&lt;/label&gt;
-      &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;pass1&quot;&gt;
+      &lt;label for=&quot;date1&quot;&gt;Date&lt;/label&gt;
+      &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;date1&quot;&gt;
     &lt;/div&gt;
     &lt;div class=&quot;form-group&quot;&gt;
         &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt;
